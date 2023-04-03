@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container{
+  background-color: rgb(122, 168, 247);
+  width: 50%;
+  margin: auto;
+  align-items: center;
+  min-height: 100vh;
+  padding: 5vmax;
+  background-color: rgb(206, 33, 33); /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, rgb(160, 255, 238) , rgb(27, 140, 160));
+  
+}
+.span_head{
+  display: flex;
+}
+.span1{
+padding: 12px
+}
+.head2{
+padding: 5px;
+}
+#para2{
+  padding-left: 38px;
+}
+.container form {
+  display: flex;
+  flex-direction: column;
+}
+input, textarea, button {
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.300);
+  border-radius: 3px;
+  margin: 25px;
+}
+button{
+  background-color: rgba(0, 0, 0, 0.826);
+  color: white;
+  
+}
+.container h1 {
+  text-align: center;
+  margin: 10px;
+  font-size: 3rem;
+}
+.Task{
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.904);
+margin: 10px;
+}
+.Task div {
+  width: 100%;
+}
+.Task button {
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+}
+.Task button:hover{
+  background-color: rgb(147, 24, 228);
+}
+/* *{
+  border: 1px solid red;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
